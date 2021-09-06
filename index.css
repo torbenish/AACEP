@@ -1,6 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
 li{
     text-align: center!important;
     color: #18a0fb;
 }
-    
+
+/* NAVBAR */
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 20px;
+
+}
+
+#container li {
+    border-radius: 150px;
+    margin: 0 2vw;
+}
+
+#container li:hover {
+    background-color: lightblue;
+}
+
 

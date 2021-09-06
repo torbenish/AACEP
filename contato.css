@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+.li{
+    text-align: center!important;
+    color: #18a0fb;
+}
+
+.main h1 {
+    font-family: 'Bebas Neue', cursive;
+}
+ 
+ .google {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.footer {
+    color: #FFFFFF;
+}
+
+.whatsapp {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.whatsapp a {
+    background-color: #FFFFFF;
+}
+
+
+
+.whatsapp b {
+    padding: 20px;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-evenly;  
+    align-items: flex-end;
+}
+
+.social a {
+    background-color: #FFFFFF;
+}

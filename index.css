@@ -1,48 +1,95 @@
-@font-face {
-    font-family: 'Bebas Neue';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/bebasneue/v2/JTUSjIg69CK48gW7PXoo9Wdhyzbi.woff2) format('woff2');
-    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-  }
+/* Fonte Roboto */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap%27");
+/* Fonte Bebas Neue */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap%27");
+
 * {
-    
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-a {
-    text-decoration: none;
-}
-
-li{
-    text-align: center!important;
-    color: #18a0fb;
+li {
+  text-align: center !important;
+  color: #18a0fb;
 }
 
 /* NAVBAR */
 
 #container {
-    display: flex;
-    justify-content: space-between;
-    margin: 15px 20px;
-
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 20px;
 }
 
 #container li {
-    border-radius: 150px;
-    margin: 0 2vw;
+  font-size: 24px;
+  font-weight: bolder;
+  border-radius: 150px;
+  margin: 0 2vw;
 }
 
 #container li:hover {
-    background-color: lightblue;
+  border-bottom: 6px solid purple;
+}
+
+#container a:hover {
+  color: purple;
 }
 
 /* body */
-section h1 {
-    font-family: 'Bebas Neue';
+
+body {
+  background-image: url(img/background1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
+section h1 {
+  margin: 20px 0;
+  font-family: "Bebas Neue";
+  font-size: 6rem;
+}
 
+.button {
+  color: white;
+  background-image: linear-gradient(
+    to right top,
+    #a044ff,
+    #933fe3,
+    #8639c7,
+    #7835ad,
+    #6a3093
+  );
+  border: 0px purple;
+  margin: 15px 100px;
+  width: 300px;
+  height: 67px;
+  font-family: "Roboto";
+  font-size: 25px;
+}
 
+.endereco p {
+  color: black;
+}
+
+.social {
+  display: flex;
+  margin-left: 150px;
+  justify-content: space-evenly;
+}
+
+.fa-youtube {
+  font-size: 50px;
+  color: black;
+}
+
+.fa-facebook-square {
+  font-size: 50px;
+  color: black;
+}
+
+.fa-instagram {
+  font-size: 50px;
+  color: black;
+}

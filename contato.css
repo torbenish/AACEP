@@ -1,3 +1,8 @@
+/* Fonte Roboto */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap%27");
+/* Fonte Bebas Neue */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap%27");
+
 * {
     margin: 0;
     padding: 0;

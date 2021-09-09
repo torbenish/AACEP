@@ -16,6 +16,7 @@ li {
 
 /* NAVBAR */
 
+
 #container {
   display: flex;
   justify-content: space-between;
@@ -24,7 +25,7 @@ li {
 
 #container li {
   font-size: 24px;
-  font-weight: bolder;
+  /* font-weight: bolder; */
   border-radius: 150px;
   margin: 0 2vw;
 }
@@ -36,6 +37,8 @@ li {
 #container a:hover {
   color: purple;
 }
+
+
 
 /* body */
 
@@ -51,6 +54,11 @@ section h1 {
   font-size: 6rem;
 }
 
+.butt {
+  margin: 0;
+  padding: 0;
+}
+
 .button {
   color: white;
   background-image: linear-gradient(
@@ -62,7 +70,7 @@ section h1 {
     #6a3093
   );
   border: 0px purple;
-  margin: 15px 100px;
+  margin: 15px 0 15px 45px;
   width: 300px;
   height: 67px;
   font-family: "Roboto";
@@ -75,21 +83,88 @@ section h1 {
 
 .social {
   display: flex;
-  margin-left: 150px;
   justify-content: space-evenly;
 }
 
 .fa-youtube {
-  font-size: 50px;
+  font-size: 3vw;
   color: black;
 }
 
 .fa-facebook-square {
-  font-size: 50px;
+  font-size: 3vw;
   color: black;
 }
 
 .fa-instagram {
-  font-size: 50px;
+  font-size: 3vw;
   color: black;
+}
+
+@media only screen and (max-width: 769px) {
+
+  #container ul li {
+    width: 50vw;
+    font-size: 4.5vw;
+  }
+
+
+  section h1 {
+    margin: 20px 0;
+    font-family: "Bebas Neue";
+    font-size: 7.8vw;
+  }
+
+  .button {
+    color: white;
+    background-image: linear-gradient(
+      to right top,
+      #a044ff,
+      #933fe3,
+      #8639c7,
+      #7835ad,
+      #6a3093
+    );
+    border: 0px purple;
+    margin: 15px 0 50px 45px;
+    width: 80px;
+    height: 30px;
+    font-family: "Roboto";
+    font-size: 2.5vw;
+  }
+
+  footer {
+    border-top: 2px solid lightblue ;
+    font-size: 2.5vw;
+  }
+
+
+  footer p {
+    text-align: left;
+    width: 50vw;
+    height: 4vh;
+  }
+  
+  .social {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 50vw;
+  }
+
+  .fa-youtube {
+    font-size: 6vw;
+    color: black;
+  }
+  
+  .fa-facebook-square {
+    font-size: 6vw;
+    color: black;
+  }
+  
+  .fa-instagram {
+    font-size: 6vw;
+    color: black;
+  }
+
 }

@@ -48,6 +48,17 @@ body {
   background-size: cover;
 }
 
+/* marcação menu */
+body.inicio #navegacao li#inicio a,
+body.projeto #navegacao li#projeto a,
+body.voluntario #navegacao li#voluntario a,
+body.doe #navegacao li#doe a,
+body.contato #navegacao  li#contato a {
+      color: darkblue;
+      cursor: text;
+  
+    }
+
 section h1 {
   margin: 20px 0;
   font-family: "Bebas Neue";
@@ -127,16 +138,38 @@ section p {
 
 @media only screen and (max-width: 769px) {
 
+  #container {
+    margin-top: 15%;
+  }
+
+  #container ul li a {
+    color: rgb(77, 179, 213);
+    text-decoration: none;
+    font-weight: bolder;
+  }
+
   #container ul li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     width: 50vw;
-    font-size: 4.5vw;
+    font-size: 6vw;
+    margin-left: 25%;
+    padding: 2vw;
+  }
+
+  #container ul {
+    border-bottom: 1px solid lightblue;
+   
+    width: 100%;
+    margin: 0;
   }
 
 
   section h1 {
     margin: 20px 0;
     font-family: "Bebas Neue";
-    font-size: 7.8vw;
+    font-size: 10vw;
   }
 
   .button {
@@ -150,9 +183,9 @@ section p {
       #6a3093
     );
     border: 0px purple;
-    margin: 15px 0 50px 45px;
-    width: 80px;
-    height: 30px;
+    margin: 15px 0 50px 50px;
+    width: 25vw;
+    height: 5vh;
     font-family: "Roboto";
     font-size: 2.5vw;
   }

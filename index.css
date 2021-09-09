@@ -54,9 +54,29 @@ section h1 {
   font-size: 6rem;
 }
 
+<<<<<<< HEAD
 .butt {
   margin: 0;
   padding: 0;
+=======
+section h1 {
+  margin: 20px 0;
+  font-family: "Bebas Neue";
+  font-size: 6rem;
+}
+
+section h3 {
+  font-family: "Bebas Neue";
+  font-size: 3rem;
+  font-weight: bolder;
+  color: white;
+}
+
+section p {
+  font-family: "Roboto";
+  font-weight: bolder;
+  font-size: 24px;
+>>>>>>> 34374f62c5c8d11fdbc9664b829eb21217a8d0c5
 }
 
 .button {
@@ -101,6 +121,7 @@ section h1 {
   color: black;
 }
 
+<<<<<<< HEAD
 @media only screen and (max-width: 769px) {
 
   #container ul li {
@@ -168,3 +189,49 @@ section h1 {
   }
 
 }
+=======
+.cards {
+  border-radius: 15px;
+}
+
+.missao {
+  background-image: linear-gradient(
+    to top,
+    #76b852,
+    #7cbb59,
+    #82bd61,
+    #87c068,
+    #8dc26f
+  );
+  border-radius: 15px;
+}
+
+.causa {
+  border-radius: 15px;
+}
+
+.causa p{
+  padding-bottom: 34px;
+}
+
+
+.visao {
+  border-radius: 15px;
+}
+
+.valores {
+  background-image: linear-gradient(
+    to right top,
+    #a044ff,
+    #933fe3,
+    #8639c7,
+    #7835ad,
+    #6a3093
+  );
+  border-radius: 15px;
+}
+
+.valores p {
+  padding-bottom: 70px;
+}
+>>>>>>> 34374f62c5c8d11fdbc9664b829eb21217a8d0c5

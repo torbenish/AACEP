@@ -11,7 +11,7 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
       rel="stylesheet"
@@ -20,57 +20,78 @@
     <title>AACEP</title>
   </head>
 
-  <body>
+  <body class="inicio">
     <!-- navbar -->
-    <div id="container">
-      <ul class="nav">
-        <div class="d-grid gap-2 d-md-block">
-          <button class="btn btn-primary rounded-pill" type="button">
-            <a class="nav-link active" href="index.html">Início</a>
-          </button>
+    <nav class="d-grid navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <button
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          class="navbar-toggler"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"> </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav" id="navegacao">
+            <li class="nav-item active" id="inicio" >
+              <a href="../html/index.html" class="nav-link active"> Início </a>
+            </li>
+            <li class="nav-item active" id="projeto">
+              <a href="../html/projeto.html" class="nav-link active">
+                <p>O Projeto </p>
+              </a>
+            </li>
+            <li class="nav-item active" id="voluntario">
+              <a href="../html/voluntario.html" class="nav-link active">
+              <p>Seja Voluntário</p>
+              </a>
+            </li>
+            <li class="nav-item active" id="doe">
+              <a href="../html/doe.html" class="nav-link active"> <p>Doe Agora </p> </a>
+            </li>
+            <li class="nav-item active" id="contato">
+              <a href="../html/contato.html" class="nav-link active">
+                <p> Contato </p>
+              </a>
+            </li>
+          </ul>
         </div>
-        <li class="nav-item border-bottom-3">
-          <a class="nav-link border-bottom-3" href="projeto.html">O Projeto</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="voluntario.html">Seja Voluntário</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="doe.html">Doe Agora</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contato.html">Contato</a>
-        </li>
-      </ul>
-    </div>
+      </div>
+    </nav>
 
     <main class="container ms-0">
       <div class="container">
         <section class="d-flex-column">
           <div>
             <img
-              src="img/logo png.png"
+              src="../img/logo png.png"
               class="rounded-0"
               style="width: 30vw"
               alt="AACEP"
             />
           </div>
           <div class="text">
-            <h1>SEJA UM <span style="color: red">VOLUNTÁRIO</span></h1>
-            <p>
-              Que tal impactar a vida de centenas de crianças e <br />
-              jovens de Paratinga? Seja um voluntário, e nos ajude <br />
-              a propagar a inclusão social por meio da música e <br />
-              cultura. Entre em contato para saber melhor como se <br />
-              tornar um voluntário da AACEP.
-            </p>
+            <h1>
+              A <span style="color: red">música</span> <br />abre as portas
+              <br />para um mundo melhor
+            </h1>
 
             <div class="d-flex justify-content-start">
               <button
                 type="button"
                 class="button btn btn-info rounded-pill shadow-lg"
               >
-                <b>QUERO FAZER PARTE</b>
+                <b>SAIBA MAIS</b>
+              </button>
+              <button
+                type="button"
+                class="button btn btn-info rounded-pill shadow-lg"
+              >
+                <b>PARTICIPE</b>
               </button>
             </div>
           </div>

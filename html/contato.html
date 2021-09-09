@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="contato.css" />
+    <link rel="stylesheet" type="text/css" href="../css/contato.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -17,29 +17,49 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
   </head>
-  <body>
+
+  <body class="contato">
     <!-- navbar -->
-    <div id="container">
-      <ul class="nav">
-        <div class="d-grid gap-2 d-md-block">
-          <button class="btn btn-primary rounded-pill" type="button">
-            <a class="nav-link active" href="index.html">Início</a>
-          </button>
+    <nav class="d-grid navbar navbar-expand-lg navbar-light ">
+      <div class="container">
+        <button
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          class="navbar-toggler"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"> </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav" id="navegacao">
+            <li class="nav-item active " id="inicio" >
+              <a href="../html/index.html" class="nav-link active"> <p>Início</p> </a>
+            </li>
+            <li class="nav-item active" id="projeto">
+              <a href="../html/projeto.html" class="nav-link active">
+                <p>O Projeto </p>
+              </a>
+            </li>
+            <li class="nav-item active" id="voluntario">
+              <a href="../html/voluntario.html" class="nav-link active">
+              <p>Seja Voluntário</p>
+              </a>
+            </li>
+            <li class="nav-item active" id="doe">
+              <a href="../html/doe.html" class="nav-link active"> <p>Doe Agora </p> </a>
+            </li>
+            <li class="nav-item active" id="contato">
+              <a href="../html/contato.html" class="nav-link active">
+                Contato
+              </a>
+            </li>
+          </ul>
         </div>
-        <li class="nav-item border-bottom-3">
-          <a class="nav-link border-bottom-3" href="projeto.html">O Projeto</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="voluntario.html">Seja Voluntário</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="doe.html">Doe Agora</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contato.html">Contato</a>
-        </li>
-      </ul>
-    </div>
+      </div>
+    </nav>
 
     <main class="container ms-0">
       <div class="container">
@@ -47,7 +67,7 @@
           <div class="d-flex flex-row">
             <div class="logo-text">
               <img
-                src="img/logo png.png"
+                src="../img/logo png.png"
                 class="rounded-0"
                 style="width: 30vw"
                 alt="AACEP"

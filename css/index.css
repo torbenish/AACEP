@@ -16,8 +16,7 @@ li {
 
 /* NAVBAR */
 
-
-#container {
+/* #container {
   display: flex;
   justify-content: space-between;
   margin: 15px 20px;
@@ -26,7 +25,7 @@ li {
 #container li {
   font-size: 24px;
   /* font-weight: bolder; */
-  border-radius: 150px;
+/* border-radius: 150px;
   margin: 0 2vw;
 }
 
@@ -36,29 +35,69 @@ li {
 
 #container a:hover {
   color: purple;
+} */
+
+/* NEW NAVBAR */
+
+.navbar li a {
+  font-weight: bolder;
+  font-size: 24px;
+  width: 200px;
 }
 
+.navbar p {
+  font-weight: bolder;
+  color: #18a0fb;
+}
 
+.button {
+  border-radius: 150px;
+}
+
+.navbar li:hover {
+  border-bottom: 6px solid purple;
+}
+
+.navbar ul li {
+  border-radius: 40%;
+  padding: 5px;
+}
+
+/* .navbar ul:hover {
+  border-bottom: 1px solid purple;
+} */
 
 /* body */
 
 body {
-  background-image: url(img/background1.png);
+  background-image: url(../img/background1.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-section h1 {
-  margin: 20px 0;
-  font-family: "Bebas Neue";
-  font-size: 6rem;
+body.inicio #navegacao li#inicio a,
+body.projeto #navegacao li#projeto a,
+body.voluntario #navegacao li#voluntario a,
+body.doe #navegacao li#doe a,
+body.contato #navegacao li#contato a {
+  color: white;
+  cursor: text;
 }
 
-<<<<<<< HEAD
+body.inicio #navegacao li#inicio,
+body.projeto #navegacao li#projeto,
+body.voluntario #navegacao li#voluntario,
+body.doe #navegacao li#doe,
+body.contato #navegacao li#contato {
+  background-color: #0d6efd;
+  cursor: text;
+}
+
 .butt {
   margin: 0;
   padding: 0;
-=======
+}
+
 section h1 {
   margin: 20px 0;
   font-family: "Bebas Neue";
@@ -76,7 +115,6 @@ section p {
   font-family: "Roboto";
   font-weight: bolder;
   font-size: 24px;
->>>>>>> 34374f62c5c8d11fdbc9664b829eb21217a8d0c5
 }
 
 .button {
@@ -121,14 +159,55 @@ section p {
   color: black;
 }
 
-<<<<<<< HEAD
-@media only screen and (max-width: 769px) {
+.cards {
+  border-radius: 15px;
+}
 
+.missao {
+  background-image: linear-gradient(
+    to top,
+    #76b852,
+    #7cbb59,
+    #82bd61,
+    #87c068,
+    #8dc26f
+  );
+  border-radius: 15px;
+}
+
+.causa {
+  border-radius: 15px;
+}
+
+.causa p {
+  padding-bottom: 34px;
+}
+
+.visao {
+  border-radius: 15px;
+}
+
+.valores {
+  background-image: linear-gradient(
+    to right top,
+    #a044ff,
+    #933fe3,
+    #8639c7,
+    #7835ad,
+    #6a3093
+  );
+  border-radius: 15px;
+}
+
+.valores p {
+  padding-bottom: 70px;
+}
+
+@media only screen and (max-width: 769px) {
   #container ul li {
     width: 50vw;
     font-size: 4.5vw;
   }
-
 
   section h1 {
     margin: 20px 0;
@@ -155,17 +234,16 @@ section p {
   }
 
   footer {
-    border-top: 2px solid lightblue ;
+    border-top: 2px solid lightblue;
     font-size: 2.5vw;
   }
-
 
   footer p {
     text-align: left;
     width: 50vw;
     height: 4vh;
   }
-  
+
   .social {
     display: flex;
     flex-direction: row;
@@ -177,61 +255,14 @@ section p {
     font-size: 6vw;
     color: black;
   }
-  
+
   .fa-facebook-square {
     font-size: 6vw;
     color: black;
   }
-  
+
   .fa-instagram {
     font-size: 6vw;
     color: black;
   }
-
 }
-=======
-.cards {
-  border-radius: 15px;
-}
-
-.missao {
-  background-image: linear-gradient(
-    to top,
-    #76b852,
-    #7cbb59,
-    #82bd61,
-    #87c068,
-    #8dc26f
-  );
-  border-radius: 15px;
-}
-
-.causa {
-  border-radius: 15px;
-}
-
-.causa p{
-  padding-bottom: 34px;
-}
-
-
-.visao {
-  border-radius: 15px;
-}
-
-.valores {
-  background-image: linear-gradient(
-    to right top,
-    #a044ff,
-    #933fe3,
-    #8639c7,
-    #7835ad,
-    #6a3093
-  );
-  border-radius: 15px;
-}
-
-.valores p {
-  padding-bottom: 70px;
-}
->>>>>>> 34374f62c5c8d11fdbc9664b829eb21217a8d0c5

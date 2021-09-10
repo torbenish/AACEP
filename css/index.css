@@ -253,7 +253,7 @@ body.contato #navegacao li#contato {
 
   
   footer {
-    border-top: 2px solid lightblue;
+    border-top: 2px solid rgb(116, 127, 131);
     font-size: 2.5vw;
   }
 
@@ -262,6 +262,7 @@ body.contato #navegacao li#contato {
     width: 50vw;
     height: 4vh;
   }
+
 
   .social {
     display: flex;
@@ -291,6 +292,14 @@ body.contato #navegacao li#contato {
 
   .text p {
     font-size: 6vw;
+  }
+
+  .texto {
+    font-size: 1vw;
+  }
+
+  #responsividade .social {
+    display: relative;
   }
 
 }

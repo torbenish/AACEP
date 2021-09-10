@@ -145,3 +145,111 @@ section p {
     color: black;
   }
   
+  @media only screen and (max-width: 769px) {
+    #container ul li {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      width: 50vw;
+      font-size: 6vw;
+      margin-left: 25%;
+      padding: 2vw;
+    }
+  
+    #container ul {
+      border-bottom: 1px solid lightblue;
+  
+      width: 100%;
+      margin: 0;
+    }
+  
+    section h1 {
+      margin: 20px 0;
+      font-family: "Bebas Neue";
+      font-size: 10vw;
+    }
+  
+  body.inicio #navegacao li#inicio,
+  body.projeto #navegacao li#projeto,
+  body.voluntario #navegacao li#voluntario,
+  body.doe #navegacao li#doe,
+  body.contato #navegacao li#contato {
+    cursor: text;
+  }
+  
+    .button {
+      color: white;
+      background-image: linear-gradient(
+        to right top,
+        #a044ff,
+        #933fe3,
+        #8639c7,
+        #7835ad,
+        #6a3093
+      );
+      border: 0px purple;
+      margin: 15px 0 50px 30px;
+      width: 25vw;
+      height: 5vh;
+      font-family: "Roboto";
+      font-size: 2.5vw;
+    }
+  
+    
+    footer {
+      border-top: 2px solid rgb(116, 127, 131);
+      font-size: 2.5vw;
+    }
+  
+    footer p {
+      margin-left: 15%;
+      width: 50vw;
+      height: 4vh;
+    }
+  
+  
+    .social {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 80vw;
+    }
+  
+    .fa-youtube {
+      font-size: 6vw;
+      color: black;
+    }
+  
+    .fa-facebook-square {
+      font-size: 6vw;
+      color: black;
+    }
+  
+    .fa-instagram {
+      font-size: 6vw;
+      color: black;
+    }
+  
+    .projeto p {
+      font-size: 4vw;
+    }
+  
+    .text p {
+      font-size: 6vw;
+    }
+  
+    .texto {
+      font-size: 4vw;
+    }
+
+    #map-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #responsividade .social {
+      display: relative;
+    }
+  
+  }

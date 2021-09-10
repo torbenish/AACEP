@@ -37,25 +37,27 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav" id="navegacao">
-            <li class="nav-item active" id="inicio" >
+            <li class="nav-item active" id="inicio">
               <a href="../html/index.html" class="nav-link active"> Início </a>
             </li>
             <li class="nav-item active" id="projeto">
               <a href="../html/projeto.html" class="nav-link active">
-                <p>O Projeto </p>
+                <p>O Projeto</p>
               </a>
             </li>
             <li class="nav-item active" id="voluntario">
               <a href="../html/voluntario.html" class="nav-link active">
-              <p>Seja Voluntário</p>
+                <p>Seja Voluntário</p>
               </a>
             </li>
             <li class="nav-item active" id="doe">
-              <a href="../html/doe.html" class="nav-link active"> <p>Doe Agora </p> </a>
+              <a href="../html/doe.html" class="nav-link active">
+                <p>Doe Agora</p>
+              </a>
             </li>
             <li class="nav-item active" id="contato">
               <a href="../html/contato.html" class="nav-link active">
-                <p> Contato </p>
+                <p>Contato</p>
               </a>
             </li>
           </ul>
@@ -64,7 +66,6 @@
     </nav>
 
     <main class="container ms-0">
-
       <div class="container">
         <section class="d-flex-column">
           <div>
@@ -77,7 +78,7 @@
           </div>
           <div class="text">
             <h1>
-             <span style="color: red">música</span> <br />abre as portas
+              <span style="color: red">música</span> <br />abre as portas
               <br />para um mundo melhor
             </h1>
 
@@ -98,10 +99,57 @@
           </div>
         </section>
       </div>
+    </main>
 
-    <!-- rodape -->
-
-    <!-- rodape -->
+    <div class="container-contact">
+      <div class="container mt-5 ms-0">
+        <h1>Contato</h1>
+        <br />
+        <form class="row g-3">
+          <div class="col-md-4">
+            <label for="firstName" class="form-label">Primeiro Nome</label>
+            <input type="text" class="form-control" id="firstName" required />
+          </div>
+          <div class="col-md-4">
+            <label for="lastName" class="form-label">Último Nome</label>
+            <input type="text" class="form-control" id="lastName" required />
+          </div>
+          <div class="col-md-6">
+            <label for="emailInfo" class="form-label">E-mail</label>
+            <input
+              type="email"
+              class="form-control"
+              id="emailInfo"
+              required
+              placeholder="exemplo@mail.com"
+            />
+          </div>
+          <div class="col-md-4">
+            <label for="phoneNumber" class="form-label">Telefone</label>
+            <input
+              type="text"
+              class="form-control"
+              id="phoneNumber"
+              placeholder="(XX) XXXXX-XXXX"
+            />
+          </div>
+          <div class="col-md-10">
+            <label for="comments" class="form-label"
+              >Comentários e Dúvidas</label
+            >
+            <textarea
+              class="form-control"
+              id="comments"
+              rows="3"
+              required
+            ></textarea>
+          </div>
+          <div class="col-md-12">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </div>
     <footer class="text-white text-center text-lg-start">
       <div class="container p-4 ms-0">
         <div class="row mt-4">

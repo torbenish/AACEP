@@ -11,7 +11,7 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <link rel="stylesheet" type="text/css" href="./css/index.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
       rel="stylesheet"
@@ -20,9 +20,9 @@
     <title>AACEP</title>
   </head>
 
-  <body class="doe">
+  <body class="inicio">
     <!-- navbar -->
-    <nav class="d-grid navbar navbar-expand-lg navbar-light ">
+    <nav class="d-grid navbar navbar-expand-lg navbar-light">
       <div class="container">
         <button
           type="button"
@@ -37,25 +37,27 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav" id="navegacao">
-            <li class="nav-item active " id="inicio" >
-              <a href="../html/index.html" class="nav-link active"> <p>Início </p> </a>
+            <li class="nav-item active" id="inicio">
+              <a href="./index.html" class="nav-link active"> Início </a>
             </li>
             <li class="nav-item active" id="projeto">
-              <a href="../html/projeto.html" class="nav-link active">
-                <p>O Projeto </p>
+              <a href="./projeto.html" class="nav-link active">
+                <p>O Projeto</p>
               </a>
             </li>
             <li class="nav-item active" id="voluntario">
-              <a href="../html/voluntario.html" class="nav-link active">
-              <p>Seja Voluntário</p>
+              <a href="./voluntario.html" class="nav-link active">
+                <p>Seja Voluntário</p>
               </a>
             </li>
             <li class="nav-item active" id="doe">
-              <a href="../html/doe.html" class="nav-link active"> Doe Agora </a>
+              <a href="./doe.html" class="nav-link active">
+                <p>Doe Agora</p>
+              </a>
             </li>
             <li class="nav-item active" id="contato">
-              <a href="../html/contato.html" class="nav-link active">
-                <p> Contato </p>
+              <a href="./contato.html" class="nav-link active">
+                <p>Contato</p>
               </a>
             </li>
           </ul>
@@ -68,7 +70,7 @@
         <section class="d-flex-column">
           <div>
             <img
-            src="../img/logo png.png"
+              src="./img/logo png.png"
               class="rounded-0"
               style="width: 30vw"
               alt="AACEP"
@@ -76,26 +78,22 @@
           </div>
           <div class="text">
             <h1>
-              DOE INSTRUMENTOS <br />
-              <span style="color: red">MUSICAIS</span>
+              <span style="color: red">música</span> <br />abre as portas
+              <br />para um mundo melhor
             </h1>
-            <p>
-              Sua contribuição é muito importante para nós! A AACEP é uma <br />
-              associação sem fins lucrativos, que atua desde 2018 e se mantém
-              por <br />
-              meio de doações de pessoas físicas e jurídicas, promovendo a
-              inclusão <br />
-              social de crianças e jovens por meio da música e cultura. <br />
-              <br />
-              Você escolhe a forma de doar: dinheiro ou instrumentos musicais.
-            </p>
 
             <div class="d-flex justify-content-start">
               <button
                 type="button"
                 class="button btn btn-info rounded-pill shadow-lg"
               >
-                <b>QUERO DOAR</b>
+                <b>SAIBA MAIS</b>
+              </button>
+              <button
+                type="button"
+                class="button btn btn-info rounded-pill shadow-lg"
+              >
+                <b>PARTICIPE</b>
               </button>
             </div>
           </div>
@@ -103,8 +101,55 @@
       </div>
     </main>
 
-    <!-- rodape -->
-
+    <div class="container-contact">
+      <div class="container mt-5 ms-0">
+        <h1>Contato</h1>
+        <br />
+        <form class="row g-3">
+          <div class="col-md-4">
+            <label for="firstName" class="form-label">Primeiro Nome</label>
+            <input type="text" class="form-control" id="firstName" required />
+          </div>
+          <div class="col-md-4">
+            <label for="lastName" class="form-label">Último Nome</label>
+            <input type="text" class="form-control" id="lastName" required />
+          </div>
+          <div class="col-md-6">
+            <label for="emailInfo" class="form-label">E-mail</label>
+            <input
+              type="email"
+              class="form-control"
+              id="emailInfo"
+              required
+              placeholder="exemplo@mail.com"
+            />
+          </div>
+          <div class="col-md-4">
+            <label for="phoneNumber" class="form-label">Telefone</label>
+            <input
+              type="text"
+              class="form-control"
+              id="phoneNumber"
+              placeholder="(XX) XXXXX-XXXX"
+            />
+          </div>
+          <div class="col-md-10">
+            <label for="comments" class="form-label"
+              >Comentários e Dúvidas</label
+            >
+            <textarea
+              class="form-control"
+              id="comments"
+              rows="3"
+              required
+            ></textarea>
+          </div>
+          <div class="col-md-12">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </div>
     <footer class="text-white text-center text-lg-start">
       <div class="container p-4 ms-0">
         <div class="row mt-4">

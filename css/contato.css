@@ -193,8 +193,9 @@ section p {
       height: 5vh;
       font-family: "Roboto";
       font-size: 2.5vw;
+      align-items: center;
     }
-  
+    
     
     footer {
       border-top: 2px solid rgb(116, 127, 131);
